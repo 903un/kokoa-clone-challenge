@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - Kokoa Talk</title>
+    <title>More - Kokoa Talk</title>
   </head>
   <body>
     <!-- Status Bar -->
@@ -24,62 +24,63 @@
     </div>
     <!-- Header -->
     <header class="screen-header">
-      <span class="screen-header__title">Find</span>
+      <span class="screen-header__title">More</span>
       <div class="screen-header__icons">
         <span><i class="far fa-search fa-lg"></i></span>
-        <span><i class="far fa-cog fa-lg"></i> </span>
+        <span><i class="far fa-music fa-lg"></i></span>
+        <span><i class="far fa-cog fa-lg"></i></span>
         <div class="noti__dot"></div>
       </div>
     </header>
-    <main class="main-screen">
+    <main class="main-screen more-screen">
+      <!-- #Conponent - USer-->
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component__avatar--xl"
+            src="https://avatars.githubusercontent.com/u/81337113?v=4"
+          />
+          <div class="user-component__text">
+            <span class="user-component__title">Goeun</span>
+            <span class="user-component__subtitle"
+              >+82 10 1234 5678 <i class="color--red fal fa-info-circle"></i
+            ></span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="color--black fal fa-comment-alt-lines fa-2x"></i>
+        </div>
+      </div>
       <!-- Icons -->
       <div class="icon-row">
         <div class="icon-row__icon">
-          <i class="fal fa-qrcode fa-2x"></i><span>QR Code</span>
+          <i class="fal fa-calendar-alt fa-2x"></i><span>Calendar</span>
         </div>
         <div class="icon-row__icon">
-          <i class="fal fa-address-book fa-2x"></i><span>Add by Contacts</span>
+          <i class="fal fa-save fa-2x"></i><span>Talk Drive</span>
         </div>
         <div class="icon-row__icon">
-          <i class="fal fa-fingerprint fa-2x"></i><span>Add by ID</span>
+          <i class="fal fa-smile-wink fa-2x"></i><span>Emoticons</span>
         </div>
         <div class="icon-row__icon">
-          <i class="fal fa-envelope fa-2x"></i><span>Invite</span>
+          <i class="fal fa-paint-roller fa-2x"></i><span>Themes</span>
         </div>
       </div>
-      <!-- Recommended Friends -->
-      <div class="recommended-friends">
-        <span class="recommended-friends__title">Recommended Friends</span>
-        <span>You have no recommended friends.</span>
+      <div class="more-suggestions">
+        <span class="more-suggestions__title">Suggestions</span>
       </div>
-      <!-- Open Chat -->
-      <div class="open-chat">
-        <div class="open-chat__header">
-          <span>Open Chat</span>
-          <span
-            >Go to Openchat Home <i class="fal fa-chevron-right fa-sm"></i
-          ></span>
+      <div class="more-suggestions__icons">
+        <div class="more-suggestions__icon">
+          <div class="more-suggestions__icon-image">
+            <i class="fas fa-quote-right fa-2x"></i>
+          </div>
+          <span class="more-suggestions__icon-text">Kokoa Story</span>
         </div>
-        <div class="open-post">
-          <div class="open-post__column">
-            <span class="open-post__title">#BTS</span>
-            <span class="open-post__hashtags">#bts#army#friends</span>
-            <div class="open-post__members">
-              <img src="https://avatars.githubusercontent.com/u/81337113?v=4" />
-              <span class="open-post__member-count">802 members</span>
-              <div class="divider"></div>
-              <span class="open-post__member-status">Active</span>
-            </div>
+        <div class="more-suggestions__icon">
+          <div class="more-suggestions__icon-image">
+            <i class="fas fa-quote-right fa-2x"></i>
           </div>
-          <div class="open-post__column">
-            <div class="open-post__photo">
-              <img src="https://avatars.githubusercontent.com/u/81337113?v=4" />
-              <div class="open-post__heart-count">
-                <i class="fas fa-heart fa-xs"></i>
-                <span>326</span>
-              </div>
-            </div>
-          </div>
+          <span class="more-suggestions__icon-text">Kokoa Story</span>
         </div>
       </div>
     </main>
@@ -99,12 +100,12 @@
         </li>
         <li class="nav__li">
           <a class="nav__a" href="find.html"
-            ><i class="fas fa-search fa-2x"></i
+            ><i class="far fa-search fa-2x"></i
           ></a>
         </li>
         <li class="nav__li">
           <a class="nav__a" href="more.html"
-            ><i class="fal fa-ellipsis-h-alt fa-2x"></i>
+            ><i class="fas fa-ellipsis-h fa-2x"></i>
             <div class="noti__dot"></div
           ></a>
         </li>

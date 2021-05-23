@@ -29,5 +29,5 @@
 .screen-header__icons .noti__dot {
   position: absolute;
   top: -10px;
-  left: 95px;
+  right: -5px;
 }

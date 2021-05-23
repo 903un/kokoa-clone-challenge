@@ -1,0 +1,35 @@
+.more-screen .icon-row__icon span {
+  color: var(--text-gray);
+  font-size: 16px;
+}
+.more-suggestions {
+  border-top: 1px solid var(--border-lite);
+  margin-top: 50px;
+  padding: 30px 0px;
+  font-size: 18px;
+}
+.more-suggestions__icons {
+  display: flex;
+}
+.more-suggestions__icon {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.more-suggestions__icon-image {
+  width: 60px;
+  height: 60px;
+  background-color: var(--yellow);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.more-suggestions__icon-image i {
+  color: white;
+}
+.more-suggestions__icon-text {
+  color: var(--text-darkgray);
+}

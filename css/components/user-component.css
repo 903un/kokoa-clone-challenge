@@ -53,3 +53,9 @@
   display: block;
   margin-bottom: 10px;
 }
+.color--red {
+  color: tomato;
+}
+.color--black {
+  color: var(--text-black);
+}

@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+
+/* Screens */
+@import "screens/login.css";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  /* Have to Del */
+  height: 1000vh;
+  /* Have to Del */
+  color: var(--text-black);
+  font-family: "Roboto", sans-serif;
+  padding-top: 30px;
+}
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}

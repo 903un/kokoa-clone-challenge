@@ -19,7 +19,7 @@
 }
 .friends-screen__chnnel-header {
   border-top: 1px solid var(--border-lite);
-  margin-top: 20px;
+  margin-top: -10px;
   padding: 20px 0px;
   display: flex;
   justify-content: space-between;

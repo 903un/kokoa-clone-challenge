@@ -1,0 +1,15 @@
+.nav {
+  position: fixed;
+  bottom: 0px;
+  background-color: whitesmoke;
+  width: 100%;
+  padding: 20px 60px;
+  border-top: 1px solid var(--border-lite);
+}
+.nav__ul {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__a {
+  position: relative;
+}

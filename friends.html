@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - Kokoa Talk</title>
+  </head>
+  <body>
+    <!-- Status Bar -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fad fa-wifi-2 fa-sm"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="far fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt fa-sm"></i>
+      </div>
+    </div>
+    <!-- Header -->
+    <header class="screen-header">
+      <span class="screen-header__title">Friends</span>
+      <div class="screen-header__icons">
+        <span><i class="far fa-search fa-lg"></i></span>
+        <span><i class="far fa-music fa-lg"></i></span>
+        <span><i class="far fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+    <!-- Friends List -->
+    <a class="friends-display-link" href="#">
+      <i class="fad fa-info-circle"></i><span>Friends' Names Display</span
+      ><i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+    <main class="friends-screen">
+      <!-- #Conponent - USer-->
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component__avatar--xl"
+            src="https://avatars.githubusercontent.com/u/81337113?v=4"
+          />
+          <div class="user-component__text">
+            <span class="user-component__title">Goeun</span>
+            <!--<span class="user-component__subtitle">text</span>-->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__chnnel-header">
+          <span>Channel</span><i class="fal fa-chevron-up"></i>
+        </div>
+        <!-- #Conponent - USer-->
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar--sm"
+              src="https://avatars.githubusercontent.com/u/81337113?v=4"
+            />
+            <div class="user-component__text">
+              <span
+                class="user-component__title user-component__title--not-bold"
+                >Channel</span
+              >
+              <!--<span class="user-component__subtitle">text</span>-->
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2</span><i class="fal fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Navigation Bar-->
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__li">
+          <a class="nav__a" href="friends.html"
+            ><i class="fas fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="#">
+            <i class="far fa-comment fa-2x"></i>
+            <div class="noti__number">1</div>
+          </a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="#"><i class="far fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="#"
+            ><i class="fal fa-ellipsis-h-alt fa-2x"></i>
+            <div class="noti__dot"></div
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/dc0733c09a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

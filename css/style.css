@@ -4,9 +4,14 @@
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav.css";
+@import "components/noti.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 * {
   box-sizing: border-box;

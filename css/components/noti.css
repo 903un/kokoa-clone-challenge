@@ -1,0 +1,28 @@
+.noti__number {
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+}
+.nav__li .noti__number {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+}
+.noti__dot {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+.nav__li .noti__dot {
+  position: absolute;
+  bottom: 28px;
+  left: 30px;
+}

@@ -32,6 +32,12 @@
   height: 60px;
   border-radius: 25px;
 }
+.user-component__avatar--icon {
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .user-component__text {
   display: flex;
   flex-direction: column;

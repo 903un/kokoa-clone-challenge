@@ -1,0 +1,14 @@
+.settings-li {
+  padding: 30px 0px;
+  border-bottom: 1px solid var(--border-lite);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings-li i {
+  margin-right: 15px;
+}
+.settings-li__column:last-child {
+  color: var(--text-darkgray);
+}

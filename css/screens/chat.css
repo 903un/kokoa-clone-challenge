@@ -66,3 +66,56 @@
 .message-row--own .message__info {
   flex-direction: row-reverse;
 }
+.message-input {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 25px;
+}
+.message-input i {
+  opacity: 0.7;
+}
+.message-input__column:last-child > i,
+.message-input__column:last-child button {
+  position: absolute;
+  right: 10px;
+}
+.message-input__column:last-child > i {
+  right: 65px;
+}
+.message-input__column {
+  display: flex;
+  align-items: center;
+}
+.message-input__column:first-child {
+  width: 10%;
+}
+.message-input__column:last-child {
+  width: 90%;
+  position: relative;
+}
+.message-input__column button {
+  background-color: var(--yellow);
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.message-input__column button i {
+  opacity: 1;
+}
+.message-input__column button:focus,
+.message-input__column button:active {
+  outline: none;
+}
+.message-input input {
+  padding: 10px 20px;
+  width: 100%;
+  border: 1px solid var(--border-regular);
+  border-radius: 30px;
+  font-size: 20px;
+}

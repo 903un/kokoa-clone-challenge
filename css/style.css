@@ -24,9 +24,6 @@
   box-sizing: border-box;
 }
 body {
-  /* Have to Del */
-  height: 1000vh;
-  /* Have to Del */
   color: var(--text-black);
   font-family: "Roboto", sans-serif;
   padding-top: 30px;

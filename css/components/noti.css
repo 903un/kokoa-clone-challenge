@@ -10,10 +10,22 @@
   font-size: 12px;
   font-weight: 700;
 }
+@keyframes notiAnimaion {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
 .nav__li .noti__number {
   position: absolute;
   bottom: 15px;
   left: 20px;
+  animation: notiAnimaion 2s ease-in-out infinite;
 }
 .noti__dot {
   background-color: tomato;

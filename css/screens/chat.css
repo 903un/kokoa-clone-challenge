@@ -25,6 +25,7 @@
 .message-row {
   width: 100%;
   display: flex;
+  margin-bottom: 25px;
 }
 .message-row img {
   width: 60px;
@@ -52,4 +53,16 @@
 }
 .message-info__time {
   opacity: 0.8;
+}
+.message-row--own {
+  justify-content: flex-end;
+}
+.message-row--own .message-info__bubble {
+  background-color: var(--yellow);
+  border-top-right-radius: 0px;
+  border-top-left-radius: 20px;
+  margin-left: 5px;
+}
+.message-row--own .message__info {
+  flex-direction: row-reverse;
 }

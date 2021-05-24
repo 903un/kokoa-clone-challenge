@@ -1,4 +1,55 @@
 .chat-screen,
-.chat-screen .status-bar {
+.chat-screen .status-bar,
+.chat-screen .alt-header {
   background-color: #abc1d1;
+}
+.chat-screen .alt-header {
+  width: 100%;
+  position: fixed;
+  top: 20px;
+}
+.main-chat {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chat__timestamp {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.message-row {
+  width: 100%;
+  display: flex;
+}
+.message-row img {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+.message__author {
+  font-size: 20px;
+  opacity: 0.8;
+  display: block;
+  margin-bottom: 10px;
+}
+.message-info__bubble {
+  background-color: white;
+  padding: 15px 20px;
+  font-size: 25px;
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+  margin-right: 5px;
+}
+.message-info__time {
+  opacity: 0.8;
 }
